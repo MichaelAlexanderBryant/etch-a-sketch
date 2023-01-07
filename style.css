@@ -47,6 +47,7 @@ h1 {
     color: #CA904D;
     background-color: #A9181E;
     border-color: black;
+    border-radius: 5px;
 }
 
 #grid-container {
