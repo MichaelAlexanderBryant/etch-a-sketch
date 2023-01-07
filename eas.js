@@ -13,3 +13,7 @@ function generateGrid() {
 };
 
 generateGrid();
+
+$(".blank-square").on("mouseover", function() {
+    $(this).css("background", "grey");
+});

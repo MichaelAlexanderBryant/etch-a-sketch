@@ -3,16 +3,50 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#change-size {
+    padding: 10px;
 }
 
 #grid {
     flex: 1;
     display:flex;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid rgb(224, 224, 224);
 }
 
 .row {
@@ -27,5 +61,12 @@ h1 {
 .blank-square {
     flex: 1;
     padding: 20px;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid rgb(224,224,224);
+}
+
+.blank-square:hover {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(204,204,204);
+    border: 1px solid rgb(224,224,224);
 }
